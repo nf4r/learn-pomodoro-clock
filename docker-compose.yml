@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  app:
+    image: pomodoro-app
+    build: src/.
+    volumes:
+      - './src/app:/app'
